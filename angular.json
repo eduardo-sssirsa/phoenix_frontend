@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "phoenixfrontend": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "phoenixfrontend"
+    }
+  },
+  "defaultProject": "phoenixfrontend",
+  "cli": {
+    "analytics": "e64b36e2-70be-4132-bb85-a69daf2a06f7"
+  }
 }
