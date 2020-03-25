@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NbCardModule } from '@nebular/theme';
+
 
 import { EntriesRoutingModule } from './entries-routing.module';
 import {NewsComponent} from './news/news.component';
@@ -13,6 +15,7 @@ import { EntriesComponent } from './entries.component';
         FormsModule,
         EntriesRoutingModule,
         ReactiveFormsModule,
+        NbCardModule,
     ],
     declarations: [
         EntriesComponent,

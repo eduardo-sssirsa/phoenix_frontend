@@ -2,7 +2,6 @@ import { NgModule, Component } from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
 import {NewsComponent} from './news/news.component';
 import {WarehouseComponent} from './warehouse/warehouse.component';
-import {WarrantiesComponent} from './warranties/warranties.component';
 import {SalepointComponent} from './salepoint/salepoint.component';
 import  {ObsoleteComponent} from './obsolete/obsolete.component';
 import {DeparturesComponent} from './departures.component';
@@ -14,10 +13,6 @@ const routes: Routes = [{
         {
             path: 'news',
             component: NewsComponent,
-        },
-        {
-            path: 'warranties',
-            component: WarrantiesComponent,
         },
         {
             path: 'warehouse',
